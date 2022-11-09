@@ -1,15 +1,12 @@
 ﻿Imports DevExpress.Drawing
 Imports DevExpress.XtraCharts
 ' ...
-
 Namespace AxisTitle
     Partial Public Class Form1
         Inherits Form
-
         Public Sub New()
             InitializeComponent()
         End Sub
-
         Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
             ' Create an empty chart.
             Dim chartControl1 As New ChartControl()
@@ -51,6 +48,5 @@ Namespace AxisTitle
             chartControl1.Dock = DockStyle.Fill
             Me.Controls.Add(chartControl1)
         End Sub
-
     End Class
 End Namespace
