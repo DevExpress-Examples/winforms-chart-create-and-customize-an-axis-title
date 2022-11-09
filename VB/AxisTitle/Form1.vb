@@ -1,6 +1,4 @@
-﻿Imports System
-Imports System.Drawing
-Imports System.Windows.Forms
+﻿Imports DevExpress.Drawing
 Imports DevExpress.XtraCharts
 ' ...
 
@@ -18,11 +16,11 @@ Namespace AxisTitle
 
             ' Create a bar series and add points to it.
             Dim series1 As New Series("Series 1", ViewType.Bar)
-            series1.Points.Add(New SeriesPoint("A", New Double() { 10 }))
-            series1.Points.Add(New SeriesPoint("B", New Double() { 12 }))
-            series1.Points.Add(New SeriesPoint("C", New Double() { 17 }))
-            series1.Points.Add(New SeriesPoint("D", New Double() { 14 }))
-            series1.Points.Add(New SeriesPoint("E", New Double() { 17 }))
+            series1.Points.Add(New SeriesPoint("A", New Double() {10}))
+            series1.Points.Add(New SeriesPoint("B", New Double() {12}))
+            series1.Points.Add(New SeriesPoint("C", New Double() {17}))
+            series1.Points.Add(New SeriesPoint("D", New Double() {14}))
+            series1.Points.Add(New SeriesPoint("E", New Double() {17}))
 
             ' Add the series to the chart.
             chartControl1.Series.Add(series1)
@@ -39,7 +37,7 @@ Namespace AxisTitle
             diagram.AxisX.Title.Text = "X-axis Title"
             diagram.AxisX.Title.TextColor = Color.Red
             diagram.AxisX.Title.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.True
-            diagram.AxisX.Title.Font = New Font(Me.Font.FontFamily.Name, 14, FontStyle.Bold)
+            diagram.AxisX.Title.DXFont = New DXFont("Tahoma", 14, DXFontStyle.Bold)
 
             ' Customize the appearance of the Y-axis title.
             diagram.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True
@@ -47,7 +45,7 @@ Namespace AxisTitle
             diagram.AxisY.Title.Text = "Y-axis Title"
             diagram.AxisY.Title.TextColor = Color.Blue
             diagram.AxisY.Title.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.True
-            diagram.AxisY.Title.Font = New Font(Me.Font.FontFamily.Name, 14, FontStyle.Bold)
+            diagram.AxisY.Title.DXFont = New DXFont("Tahoma", 14, DXFontStyle.Bold)
 
             ' Add the chart to the form.
             chartControl1.Dock = DockStyle.Fill

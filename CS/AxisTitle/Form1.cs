@@ -1,6 +1,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using DevExpress.Drawing;
 using DevExpress.XtraCharts;
 // ...
 
@@ -37,7 +38,7 @@ namespace AxisTitle {
             diagram.AxisX.Title.Text = "X-axis Title";
             diagram.AxisX.Title.TextColor = Color.Red;
             diagram.AxisX.Title.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.True;
-            diagram.AxisX.Title.Font = new Font(this.Font.FontFamily.Name, 14, FontStyle.Bold);
+            diagram.AxisX.Title.DXFont = new DXFont("Tahoma", 14, DXFontStyle.Bold);
 
             // Customize the appearance of the Y-axis title.
             diagram.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
@@ -45,7 +46,7 @@ namespace AxisTitle {
             diagram.AxisY.Title.Text = "Y-axis Title";
             diagram.AxisY.Title.TextColor = Color.Blue;
             diagram.AxisY.Title.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.True;
-            diagram.AxisY.Title.Font = new Font(this.Font.FontFamily.Name, 14, FontStyle.Bold);
+            diagram.AxisY.Title.DXFont = new DXFont("Tahoma", 14, DXFontStyle.Bold);
 
             // Add the chart to the form.
             chartControl1.Dock = DockStyle.Fill;
