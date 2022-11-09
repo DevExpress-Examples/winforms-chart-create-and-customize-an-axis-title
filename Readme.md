@@ -9,7 +9,7 @@ This example demonstrates how to access an [axis title](https://docs.devexpress.
 
 ![Chart](images/chart.png)
 
-Cast your [diagram](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Diagram?p=netframework) object to the required diagram type, to access its [axes](https://docs.devexpress.com/WindowsForms/5779/controls-and-libraries/chart-control/diagram/axes). Then, you can access the [Title](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Axis2D.Title?p=netframework) property of an axis.
+Cast your [diagram](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Diagram?p=netframework) object to the required diagram type to access its [axes](https://docs.devexpress.com/WindowsForms/5779/controls-and-libraries/chart-control/diagram/axes). Then, you can access the [Title](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Axis2D.Title?p=netframework) property of an axis.
 
 ## Files to Review
 
