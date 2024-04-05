@@ -33,7 +33,7 @@ namespace AxisTitle {
             // Customize the appearance of the X-axis title.
             diagram.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
             diagram.AxisX.Title.Alignment = StringAlignment.Center;
-            diagram.AxisX.Title.Text = "X-axis Title";
+            diagram.AxisX.Title.Text = "<i>X-axis</i> <color=violet>Title</color>";
             diagram.AxisX.Title.TextColor = Color.Red;
             diagram.AxisX.Title.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.True;
             diagram.AxisX.Title.DXFont = new DXFont("Tahoma", 14, DXFontStyle.Bold);
