@@ -9,13 +9,16 @@
     <ProjectGuid>{53649BA9-2060-4C56-856A-8DAB119C1586}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>AxisTitle</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileUpgradeFlags></FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <OldToolsVersion>2.0</OldToolsVersion>
     <UpgradeBackupLocation />
-    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
